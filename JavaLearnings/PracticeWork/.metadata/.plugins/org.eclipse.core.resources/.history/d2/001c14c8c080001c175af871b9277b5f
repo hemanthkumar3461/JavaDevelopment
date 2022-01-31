@@ -1,0 +1,10 @@
+package com.school.project;
+
+public class Teacher {
+	private int id;
+	private String name;
+	private int salary;
+	
+}
+r(int id, String name, int salary) {}
+	

@@ -1,0 +1,28 @@
+package SamplePracticePrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		int a = scanner.nextInt();
+		String primeNumbers = "";
+		
+		for(int i =1; i<=a; i++) {
+			
+			int count = 0;
+			for(a =i; a>=1; a--) {
+					count++;
+				}
+			if(count ==2) {
+				primeNumbers = primeNumbers + i + " ";
+				
+			}
+		}
+
+	}
+
+}

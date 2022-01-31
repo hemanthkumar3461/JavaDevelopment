@@ -1,0 +1,9 @@
+package com.school.project;
+
+public class Teacher {
+	private int id;
+	private String name;
+	private int salary;
+	
+}
+	public tA

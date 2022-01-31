@@ -1,0 +1,23 @@
+package com.school.project;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+		Teacher lizzy = new Teacher(1,"Lizzy",500);
+		Teacher lizzy1 = new Teacher(2,"Lizzy4",505450);
+		Teacher lizzy2 = new Teacher(3,"Lizzy554",5040);
+		List<Teacher> teacherlist = new ArrayList<>();
+		
+		Student lisdbk = new Student(1,"pop",5040);
+		Student iipopk = new Student(2,"pop",5040);
+		Student lizbgs = new Student(3,"pop",5040);
+		
+		School ghs = new School();
+
+	}
+
+}
