@@ -1,0 +1,20 @@
+package ObjectOrientedProgramming;
+
+public class MethodExample {
+
+	public static void main(String[] args)
+	//There should a main method always for interpreter to execute our code
+		{
+		
+		FirstMethod();
+
+		}//end of main method
+	
+	//New method declared inside class and outside any other mehtod
+	public static void FirstMethod() 
+	{
+		System.out.println("Hey!!, This is my first method");
+	}
+
+}//end of class
+

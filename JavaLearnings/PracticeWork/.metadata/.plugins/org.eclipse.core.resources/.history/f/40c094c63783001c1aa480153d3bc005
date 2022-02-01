@@ -1,0 +1,23 @@
+package ObjectOrientedProgramming;
+//Encapsulation is a process of hiding sensitive data from user
+//By using private access modifiers for class variables
+public class GettersAndSetters {
+
+	public static void main(String[] args) {
+		
+		private int a = 12;
+		//How to get data 
+		//We use getters and setters methods for accessing and modifying the values of private variables
+		/*
+		 * public String getName(){
+		 * 		return name;
+		 * }
+		 * 
+		 * public int getAge(){
+		 * 		return age;
+		 * }
+		 */
+
+	}
+
+}
