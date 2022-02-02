@@ -1,0 +1,13 @@
+package ObjectOrientedProgramming.InheritanceExample;
+
+public class JuniorWritter extends Writer {
+	public int pagePrint() {
+		return 1000;
+	}
+
+	@Override
+	public int getHolidays() {
+		// TODO Auto-generated method stub
+		return 25;
+	}
+}

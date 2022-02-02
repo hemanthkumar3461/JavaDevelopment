@@ -1,0 +1,14 @@
+package ObjectOrientedProgramming.InheritanceExample;
+
+public class TestCirclePoint {
+
+	public static void main(String[] args) {
+		Point p = new Point(5,5);
+		
+		Circle c = new Circle(c,5.5);
+		Circle c1 = new Circle(5,5,10);
+		
+
+	}
+
+}

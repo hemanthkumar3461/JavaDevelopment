@@ -1,0 +1,14 @@
+package ObjectOrientedProgramming.InheritanceExample.Interface;
+
+public class Rectangle {
+	double width;
+	double height;
+	
+	public Rectangle(double width, double height) {
+		super();
+		this.width = width;
+		this.height = height;
+	}
+	
+	
+}

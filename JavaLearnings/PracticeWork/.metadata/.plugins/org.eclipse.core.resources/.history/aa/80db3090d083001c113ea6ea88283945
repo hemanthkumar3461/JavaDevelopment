@@ -1,0 +1,7 @@
+package ObjectOrientedProgramming.InheritanceExample;
+
+public class JuniorWritter extends Writer {
+	public int pagePrint() {
+		return 1000;
+	}
+}

@@ -1,0 +1,8 @@
+package ObjectOrientedProgramming.InheritanceExample;
+
+public class Circle extends Point {
+	
+}
+//Here we are not going to extend Circle from point because it gives a logical error
+//Circle and point is not having a is-a relationship
+//Circle and point are having a has-a relationship

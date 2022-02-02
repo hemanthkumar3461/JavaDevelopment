@@ -1,0 +1,46 @@
+package ObjectOrientedProgramming.InheritanceExample;
+
+public class Polymorphism {
+	String name = "heman";
+	
+	public Polymorphism(String name) {
+		this.name = name;
+		
+	}
+	public Polymorphism() {
+		
+		
+	}
+	public static void main(String[] args) {
+	Employee[] emp = new Employee[10];
+	//emp[0] = Writer;
+	
+	Employee e1 = new Lawyer();
+	Employee e2 = new Writer();
+	//Here the subclass can be sent into parent class
+	//Lawyer class is a subclass of employee class
+	
+	System.out.println(e1.getHolidays());
+	System.out.println(e1.getHours());
+	System.out.println(e1.getSalary());
+	
+	System.out.println(e2.getHolidays());
+	System.out.println(e2.getHours());
+	//Only Employee class/parent class methods are avaible to use
+	
+	
+	Polymorphism p1 = new Polymorphism("John");
+	Polymorphism p2 = new Polymorphism("John");
+	Polymorphism p3 = new Polymorphism();
+	p3=p2;
+	System.out.println(p1.equals(p2));
+	System.out.println(p2.equals(p3));
+	//Object references/states are compared but not the values of objects
+	
+	
+	
+	}
+}
+//Code will actually behave differently depending on which type of object is used because each subclass overrides and changes some of the behavior of the superclass
+//Get different from different object
+//The ability of same code to be used with several different types of objects is called polymorphism

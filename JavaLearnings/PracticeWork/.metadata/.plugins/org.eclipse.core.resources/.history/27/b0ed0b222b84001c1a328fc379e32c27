@@ -1,0 +1,5 @@
+package Arraylist;
+
+public class ArrayDeclarations {
+
+	int[] arr1 = {1,2,3};

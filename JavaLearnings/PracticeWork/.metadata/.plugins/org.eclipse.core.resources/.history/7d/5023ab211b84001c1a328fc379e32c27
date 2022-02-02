@@ -1,0 +1,26 @@
+package ObjectOrientedProgramming.InheritanceExample.Interface;
+
+public class Rectangle implements Shapesuper {
+	double width;
+	double height;
+	
+	public Rectangle(double width, double height) {
+		super();
+		this.width = width;
+		this.height = height;
+	}
+
+	@Override
+	public double CalculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double CalculatePerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

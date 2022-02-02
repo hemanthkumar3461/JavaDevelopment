@@ -1,0 +1,14 @@
+package ObjectOrientedProgramming.InheritanceExample;
+
+public class Lawyer extends Employee {
+	
+	@Override
+	public int getHours() {
+		// TODO Auto-generated method stub
+		return 25;
+	}
+	
+	public int getClients() {
+		return 10;
+	}
+}

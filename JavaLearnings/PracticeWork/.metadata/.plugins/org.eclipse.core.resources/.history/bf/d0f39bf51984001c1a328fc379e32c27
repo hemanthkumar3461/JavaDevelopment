@@ -1,0 +1,14 @@
+package ObjectOrientedProgramming.InheritanceExample.Interface;
+
+public class Cricle {
+	int x;
+	int y;
+	double radius;
+	
+	public Cricle(int x, int y, double radius) {
+		super();
+		this.x = x;
+		this.y = y;
+		this.radius = radius;
+	}
+}

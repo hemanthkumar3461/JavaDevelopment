@@ -17,6 +17,5 @@ public abstract class NonAccessModifiers {
 
 }
 //Final class: Class can't be inherited by any other class
-
 //Abstract class: No objects can be created for this class
 //Abstract method can only declared but not defined
