@@ -1,7 +1,7 @@
 package Arraylist;
 //ArrayList implements list interface
 //Many prefer arrayList than arrays
-//because it is a re-sizeble/dynamic implementation using list interface
+//because it is a resizable/dynamic implementation using list interface
 //ArrayList can dynamically shrink when elements are added/removed from list
 
 
