@@ -1,0 +1,19 @@
+package Collections;
+import java.util.Set;
+/*
+ * Sets extends collection interface
+ * Sets are used to store the unordered set of elements, which does not allow us to store the duplicates 
+ * Set interface is implemented by Hashset, Treeset and LinkedHashset
+ * 
+ * 
+ * 
+ */
+public class SetInterface {
+
+	public static void main(String[] args) {
+		
+		Set<String> s1 = new HashSet<>();
+
+	}
+
+}
