@@ -21,7 +21,7 @@ public class SetInterface {
 		
 		//Set<String> s2 = new LinkedHashSet<>();
 		
-		//Set<String> s3 = new TreeSet<>();
+		Set<String> s3 = new TreeSet<>();
 		
 		
 		//Hashset: It is implemented using hashtable for storage. This uses hashcode for placing elements in any specific location
@@ -68,8 +68,6 @@ public class SetInterface {
 		s2.add("d");
 		s2.add("e");
 		s2.add("e");
-		
-		s2.remove("d");
 		Iterator<String> iterator1 = s2.iterator();
 		
 		for(String s: s2) {
@@ -79,27 +77,7 @@ public class SetInterface {
 		}
 		
 		
-		//Treeset 
-		//Java Treeset class implements the set interface that uses a tree for storage 
-		//Like hashset, treeset also contains unique elements. The access and retirvel time of treeset is quite fast.
-		//The elements in treeset are stored in asecending order.
-		
-		Set<String> s3 = new TreeSet<>();
-		s3.add("b");
-		s3.add("a");
-		s3.add("a");
-		s3.add("c");
-		s3.add("d");
-		s3.add("e");
-		
-		
-		Iterator<String> iterator2 = s3.iterator();
-		
-		for(String s: s3) {
-			System.out.println(s);
-			
-			
-		}
+	
 	
 	
 	}

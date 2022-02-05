@@ -11,5 +11,12 @@
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Rectangle"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Triangle"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="Collections.CollectionInterface"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
 </qualifiedTypeNameHistroy>
