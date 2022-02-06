@@ -24,7 +24,6 @@ public class SetInterface {
 		//Set<String> s3 = new TreeSet<>();
 		
 		
-		
 		//Hashset: It is implemented using hashtable for storage. This uses hashcode for placing elements in any specific location
 		Set<String> s1 = new HashSet<>();
 		s1.add("H4i");
@@ -84,8 +83,7 @@ public class SetInterface {
 		//Java Treeset class implements the set interface that uses a tree for storage 
 		//Like hashset, treeset also contains unique elements. The access and retirvel time of treeset is quite fast.
 		//The elements in treeset are stored in asecending order.
-		//This internally uses binary search tree for sorting order
-		System.out.println(" ");
+		
 		Set<String> s3 = new TreeSet<>();
 		s3.add("b");
 		s3.add("a");
