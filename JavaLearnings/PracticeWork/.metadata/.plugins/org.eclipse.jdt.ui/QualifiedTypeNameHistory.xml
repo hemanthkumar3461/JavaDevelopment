@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Circle"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Rectangle"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Triangle"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="Collections.CollectionInterface"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -20,4 +19,10 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Collections.ListInterfaceFromCollectionInterface.LinkedList"/>
+    <fullyQualifiedTypeName name="java.awt.print.Book"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="Collections.ListInterfaceFromCollectionInterface.Book"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="Collections.ListInterfaceFromCollectionInterface.BookList"/>
 </qualifiedTypeNameHistroy>

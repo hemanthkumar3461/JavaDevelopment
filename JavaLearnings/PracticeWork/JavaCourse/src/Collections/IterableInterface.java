@@ -29,7 +29,7 @@ public class IterableInterface {
 			System.out.println(obj);
 			
 		}
-		//YOu can use foreach for all collections 
+		//YOu can use for-each for all collections 
 		
 		for(String s:arr) {
 			System.out.println(s);

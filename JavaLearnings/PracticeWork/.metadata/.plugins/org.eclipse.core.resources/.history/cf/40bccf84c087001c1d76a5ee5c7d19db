@@ -1,0 +1,27 @@
+package Collections.ListInterfaceFromCollectionInterface;
+import java.util.LinkedList;
+import java.awt.print.Book;
+import java.util.Iterator;
+import java.util.List;
+
+public class LinkedList {
+
+	public static void main(String[] args) {
+		
+		List<Book> bookList = new 
+		
+		Book book1 = new Book(1,"book1");
+		Book book2 = new Book(2,"book2");
+		
+		bookList.add(book1);
+		bookList.add(book2);
+		
+		Iterator<Book> iterator = bookList.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next().toString());
+		}
+		
+		
+	}
+
+}
