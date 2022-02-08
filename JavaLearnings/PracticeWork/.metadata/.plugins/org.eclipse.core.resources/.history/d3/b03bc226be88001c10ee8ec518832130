@@ -1,0 +1,19 @@
+package Recursion;
+
+public class IntegerExponent {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static int CalculatePower(int x, int y) {
+		if(y==0) {
+			return 1;
+		}else {
+			return x*CalculatePower(x, y-1);
+		}
+		
+	}
+
+}
