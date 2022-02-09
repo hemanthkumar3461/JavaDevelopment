@@ -1,8 +1,0 @@
-package ObjectOrientedProgramming.InheritanceExample;
-
-public class Polymorphism {
-
-}
-//Code will actually behave differently depending on which type of object is used because each subclass overrides and changes some of the behavior of the superclass
-//Get different from different object
-//The ability of same code to be used with several different types of objects is called polymorphism

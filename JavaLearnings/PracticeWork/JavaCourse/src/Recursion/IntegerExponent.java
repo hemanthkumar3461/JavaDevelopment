@@ -7,7 +7,7 @@ public class IntegerExponent {
 	/*
 	 * 
 	 * pow(2,3)
-	 * 2 * pow(2,2)
+	 * 2 * pow(2,2) 
 	 * 2 * pow(2,2)
 	 * 2 * 2 * pow(2,1)
 	 * 

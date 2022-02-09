@@ -1,0 +1,24 @@
+package Generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * Generics provides us type safety
+ * It can used with classes, methods and interfaces.
+ * 
+ * The input for the formal parameters is values and input for type parameters is type
+ * Strong type checks is done during compile time. So finding errors in compile is better finding those during run time
+ * 
+ */
+public class GenericsTheory {
+
+	public static void main(String[] args) {
+		//Before generics
+		List list = new ArrayList();
+		list.add("hello");
+		String s =(String)list.get(0);
+
+	}
+
+}

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Lawyer"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Polymorphism"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Shapesuper"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Circle"/>
     <fullyQualifiedTypeName name="ObjectOrientedProgramming.InheritanceExample.Interface.Rectangle"/>
@@ -27,4 +25,8 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Generics.GenericClassExample"/>
+    <fullyQualifiedTypeName name="Generics.GenericInterfacedemo"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
