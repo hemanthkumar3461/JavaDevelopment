@@ -1,9 +1,0 @@
-package ObjectOrientedProgramming.InheritanceExample.Interface;
-
-public class CodeTest {
-	public static void main(String[] args) {
-		Shapesuper s1 = new Circle(10,10,5);
-		Shapesuper s2 = new Rectangle(10,10);
-		Shapesuper s3 = new Triangle(10,10,5,5,5);
-	}
-}
