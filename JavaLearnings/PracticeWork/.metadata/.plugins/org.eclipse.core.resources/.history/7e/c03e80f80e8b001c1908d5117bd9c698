@@ -1,0 +1,20 @@
+package SampleWorks.Work1;
+
+import javax.swing.JLabel;
+
+public class IpFinder {
+
+	public static void main(String[] args) {
+		//IP Finder
+		
+		JLabel label = new JLabel("Enter URL");
+		label.setBounds(50,70,150,20);
+		
+		JTextField textField = new JtextField();
+		label.setBounds(50,100,200,200);
+		
+		
+
+	}
+
+}

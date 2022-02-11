@@ -29,4 +29,5 @@
     <fullyQualifiedTypeName name="Generics.GenericClassExample"/>
     <fullyQualifiedTypeName name="Generics.GenericInterfacedemo"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
 </qualifiedTypeNameHistroy>
