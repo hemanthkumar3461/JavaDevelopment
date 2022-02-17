@@ -103,4 +103,7 @@
 	<section name="RenameInformationPopup">
 		<item key="snap_position" value="2"/>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
+	</section>
 </section>
