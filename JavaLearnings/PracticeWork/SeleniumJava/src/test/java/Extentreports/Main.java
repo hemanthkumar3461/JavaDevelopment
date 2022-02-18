@@ -12,7 +12,8 @@
  * public class Demo { private static final String CODE1 =
  * "{\n    \"theme\": \"standard\",\n    \"encoding\": \"utf-8\n}"; private
  * static final String CODE2 =
- * "{\n    \"protocol\": \"HTTPS\",\n    \"timelineEnabled\": false\n}";
+ * "{\n    \"protocol\": \"HTTPS\",\n    \"timelineEnabled\": false\
+ * n}";
  * 
  * public static void main(String[] args) throws ClassNotFoundException {
  * ExtentReports extent = new ExtentReports(); ExtentSparkReporter spark = new
