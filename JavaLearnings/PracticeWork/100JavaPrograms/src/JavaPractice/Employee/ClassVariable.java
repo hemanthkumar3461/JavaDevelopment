@@ -14,3 +14,6 @@ public class ClassVariable {
 }
 //These are declared inside class and outside methods
 //These are declared using static keyword. Normally used during making constants for usage
+
+
+  
