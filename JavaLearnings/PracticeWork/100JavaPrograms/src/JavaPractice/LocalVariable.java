@@ -14,5 +14,4 @@ public class LocalVariable{
 	}
 }
 //There are mainly 2 types of errors 1) Run time error 2) Compile time error 
-
 //This is one of the most important classification
