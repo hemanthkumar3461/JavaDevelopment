@@ -7,6 +7,7 @@ public class NumberClassMethod2{
 		System.out.println(x.compareTo(5));
 		System.out.println(x.compareTo(8));
 	}
+	
 }
 
 //In this method the object is compared to argument, the argument should be of same type
