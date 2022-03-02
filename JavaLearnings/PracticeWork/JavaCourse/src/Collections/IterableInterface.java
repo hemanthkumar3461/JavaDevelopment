@@ -2,15 +2,12 @@ package Collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
+//Iterable -> Collection -> List -> Arraylist
 /*
- * Iterator is an object that implements the interface iterable
+ * Iterator is an object that implements the iterable interface 
  * The purpose of iterators is to provide a uniform way of accessing collection elements in sequence 
  * Iterable works with anything that implements the interface
- * Iterator is used to iterate any list or collection  type 
- *
- *
- *
+ * Iterator is used to iterate any list or any collection type 
  *
  */
 public class IterableInterface {

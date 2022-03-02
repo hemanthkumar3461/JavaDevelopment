@@ -20,4 +20,5 @@ public class CollectionTheory {
 	}
 
 }
-//linked list is good for insertion and deletion but not good for random access
+//linked list is good for insertion and deletion but not good for random access.
+//But Arraylist is good for random access

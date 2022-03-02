@@ -1,5 +1,5 @@
 package Collections.ListInterfaceFromCollectionInterface;
-
+//Iterable -> Collection -> List -> Linkedlist -> Stack
 import java.util.Stack;
 
 public class StackImplementation {

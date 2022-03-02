@@ -9,9 +9,6 @@ import java.util.Iterator;
  * Sets interface extends collection interface
  * Sets are used to store the unordered set of elements, which does not allow us to store the duplicates 
  * Set interface is implemented by Hashset, Treeset and LinkedHashset
- * 
- * 
- * 
  */
 public class SetInterface {
 
@@ -25,7 +22,8 @@ public class SetInterface {
 		
 		
 		
-		//Hashset: It is implemented using hashtable for storage. This uses hashcode for placing elements in any specific location
+		//Hashset: Unordered.(Order is not predictable)
+		//It is implemented using hashtable for storage. This uses hashcode for placing elements in any specific location
 		Set<String> s1 = new HashSet<>();
 		s1.add("H4i");
 		s1.add("H4i");
@@ -54,8 +52,8 @@ public class SetInterface {
 		}
 		
 		//LinkedHashset: It is an order version of hashset that maintains a doubly linked list across all elements.
-		//When the interaction order is needed to be maintained this class is used.
-		//While iterating hashset the order is unpredictable,it lets us iterate through the elements in the order in which they were inserted
+		//When the insertion order is needed to be maintained this class is used.
+		//While iterating with hashset the order is unpredictable,but linkedhashset lets us iterate through the elements in the order in which they were inserted
 		//The order is your priority then use linkedHashset
 		System.out.println(" ");
 		System.out.println(" ");

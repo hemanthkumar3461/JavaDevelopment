@@ -6,7 +6,7 @@ import java.util.Collection;
 /*
  * Collection interface extends iterable interface, All methods of iterable are available for collection interface for use
  * Map does not extend collection interface.So we can not use its methods
- * Arrylist inherits and implements the list interface and list interface extends collection interface so the add method is avaiable for us
+ * Arrylist inherits and implements the list interface and list interface extends collection interface so the add method is available for us
  * 
  * 
  * 
