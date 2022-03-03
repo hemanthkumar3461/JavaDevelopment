@@ -11,6 +11,7 @@ public class Polymorphism {
 		
 		
 	}
+	//Method overloading is happening using the above parameterized constructors
 	public static void main(String[] args) {
 	Employee[] emp = new Employee[10];
 	//emp[0] = Writer;

@@ -4,5 +4,5 @@ public class UnderstandingComposition {
 
 		// Inheritance uses is-a relationship
 		// Composition uses has-a relationship
-	//Follow point and circle classes
+		//Follow point and circle classes
 }
