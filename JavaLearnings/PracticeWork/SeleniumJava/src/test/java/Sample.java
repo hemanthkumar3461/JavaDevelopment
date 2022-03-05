@@ -24,6 +24,7 @@ public class Sample
  FileUtils.copyFile(src, new File("D:\\screenshot.png"));
  } catch (IOException e) {
  e.printStackTrace();
+ 
  }
  }
 }
