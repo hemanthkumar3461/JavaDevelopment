@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="Generics.GenericInterfacedemo"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="Pom.pages.Googlesearchpage"/>
@@ -52,4 +51,5 @@
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.MarkupHelper"/>
     <fullyQualifiedTypeName name="com.mongodb.MapReduceCommand.OutputType"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
