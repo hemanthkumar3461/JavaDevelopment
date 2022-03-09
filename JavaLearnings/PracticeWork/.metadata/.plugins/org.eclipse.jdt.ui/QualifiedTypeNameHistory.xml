@@ -45,11 +45,11 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="org.junit.AfterClass"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.ExtentColor"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.MarkupHelper"/>
     <fullyQualifiedTypeName name="com.mongodb.MapReduceCommand.OutputType"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>
