@@ -11,6 +11,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\heman\Desktop\SDET_CapstoneProject_Group2\Task 7\RestassuredApiTesting"/>
 			<item value="C:\Users\heman\Desktop\SelfLearning\JavaLearnings\PracticeWork\Cucumber_Junit_Selenium_CapstoneProject"/>
 			<item value="C:\Users\heman\Desktop\SDET_CapstoneProject_Group2\Task 4\Cucumber_Junit_Selenium_CapstoneProject"/>
 		</list>
