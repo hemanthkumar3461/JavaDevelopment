@@ -696,7 +696,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_zQOdYKEpEeyT3N6zLltqWQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ProductServiceController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ProductServiceController.java&quot; partName=&quot;ProductServiceController.java&quot; title=&quot;ProductServiceController.java&quot; tooltip=&quot;SpringbootServer/src/main/java/com/tutorialspoint/demo/controller/ProductServiceController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringbootServer/src/main/java/com/tutorialspoint/demo/controller/ProductServiceController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;816&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ProductServiceController.java&quot; partName=&quot;ProductServiceController.java&quot; title=&quot;ProductServiceController.java&quot; tooltip=&quot;SpringbootServer/src/main/java/com/tutorialspoint/demo/controller/ProductServiceController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringbootServer/src/main/java/com/tutorialspoint/demo/controller/ProductServiceController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;712&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -965,7 +965,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_WidioqBuEey8Vs1yoIr4Xg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DQ168KEiEeyT3N6zLltqWQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_WimFeqBuEey8Vs1yoIr4Xg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sp1-YKIdEeyv8o2zIsmh0Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_WimFeqBuEey8Vs1yoIr4Xg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Widir6BuEey8Vs1yoIr4Xg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1005,7 +1005,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_WidjC6BuEey8Vs1yoIr4Xg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DQ8ooKEiEeyT3N6zLltqWQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_WilfO6BuEey8Vs1yoIr4Xg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sp_IUKIdEeyv8o2zIsmh0Q" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_WilfO6BuEey8Vs1yoIr4Xg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_WiewiaBuEey8Vs1yoIr4Xg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
