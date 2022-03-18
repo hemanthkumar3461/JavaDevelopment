@@ -12,6 +12,7 @@ public class StaticStudentExample
 {
 	public static void main(String[] args)
 	{
+		
 		//create 3 object which will share collegeName value
 		Student s1= new Student();
 		Student s2= new Student();
