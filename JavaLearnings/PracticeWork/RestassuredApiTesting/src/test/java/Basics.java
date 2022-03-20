@@ -9,8 +9,7 @@ import org.testng.Assert;
 public class Basics {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-// validate if Add Place API is workimg as expected 
+// validate if Add Place API is working as expected 
 		//Add place-> Update Place with New Address -> Get Place to validate if New address is present in response
 		
 		//given - all input details 
@@ -29,7 +28,7 @@ public class Basics {
 		System.out.println(placeId);
 		
 		//Update Place
-		String newAddress = "Summer Walk, Africa2";
+		String newAddress = "Summer Walk, Africa222222";
 		
 		given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 		.body("{\r\n" + 
@@ -49,7 +48,7 @@ public class Basics {
 	JsonPath js1=ReUsableMethods.rawToJson(getPlaceResponse);
 	String actualAddress =js1.getString("address");
 	System.out.println(actualAddress);
-	Assert.assertEquals(actualAddress, "Summer Walk, Africa2");
+	Assert.assertEquals(actualAddress, "Summer Walk, Africa222222");
 	//Cucumber Junit, Testng
 	System.out.println("My tests are successful");
 	
