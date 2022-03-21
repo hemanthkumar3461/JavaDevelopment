@@ -1,18 +1,13 @@
 package demo;
-
 import static io.restassured.RestAssured.given;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.AssertJUnit;
-
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import pojo.Api;
@@ -35,8 +30,6 @@ public class oAuthTest {
 			String partialcode=url.split("code=")[1];
 			String code=partialcode.split("&scope")[0];
 			System.out.println(code);
-			
-			
 			//   tagname[attribute='value']
 			
 	String accessTokenResponse=	given().urlEncodingEnabled(false)
@@ -49,11 +42,6 @@ public class oAuthTest {
 		.post("https://www.googleapis.com/oauth2/v4/token").asString();
 	JsonPath js=new JsonPath(accessTokenResponse);
 	String accessToken=js.getString("access_token");
-		
-		
-		
-		
-		
 		GetCourse gc=given().queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)
 		.when()
 		.get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
@@ -61,7 +49,6 @@ public class oAuthTest {
 		System.out.println(gc.getLinkedIn());
 		System.out.println(gc.getInstructor());
 		System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
-		
 		
 		List<Api> apiCourses=gc.getCourses().getApi();
 		for(int i=0;i<apiCourses.size();i++)
@@ -74,24 +61,13 @@ public class oAuthTest {
 		
 		//Get the course names of WebAutomation
 		ArrayList<String> a= new ArrayList<String>();
-		
-		
 		List<pojo.WebAutomation> w=gc.getCourses().getWebAutomation();
-		
 		for(int j=0;j<w.size();j++)
 		{
 			a.add(w.get(j).getCourseTitle());
 		}
-		
 		List<String> expectedList=	Arrays.asList(courseTitles);
-		
 		AssertJUnit.assertTrue(a.equals(expectedList));
-		
-		
-		
-		
-		
-		
 		//System.out.println(response);
 		
 		
