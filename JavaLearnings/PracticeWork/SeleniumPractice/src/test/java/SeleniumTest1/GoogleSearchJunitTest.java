@@ -14,6 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * Start 4 difference browsers by Selenium
  */
+
 public class GoogleSearchJunitTest  {
 	@Test
 	public void testInIE() throws Exception {
