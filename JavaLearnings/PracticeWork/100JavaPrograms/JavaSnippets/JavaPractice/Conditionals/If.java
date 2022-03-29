@@ -7,6 +7,7 @@ public class If{
 		if( x <20){
 			System.out.print("This is if statement");
 		}
+		
 		else if(x>20)
 		{
 			System.out.println("> 20 ");
