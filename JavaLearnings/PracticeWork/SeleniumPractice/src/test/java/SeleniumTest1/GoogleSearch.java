@@ -11,13 +11,10 @@ public class GoogleSearch {
 		// Create a new instance of the html unit driver
 		// Notice that the remainder of the code relies on the interface,
 		// not the implementation.
-		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-
+		WebDriver driver = new ChromeDriver();		
 		// And now use this to visit Google
 		driver.get("http://www.google.com");
-		
 		driver.manage().window().maximize();
 		// Find the text input element by its name
 		WebElement element = driver.findElement(By.name("q"));
