@@ -19,6 +19,7 @@ public class GoogleSearch {
 		driver.manage().window().maximize();
 		// Find the text input element by its name
 		WebElement element = driver.findElement(By.name("q"));
+		
 		assert driver.findElement(By.name("q")).isDisplayed();
 		// Enter something to search for
 		element.sendKeys("Hello Selenium WebDriver!");
